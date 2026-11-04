@@ -1,0 +1,80 @@
+{
+    "repo":  "powershell-ops-scripts",
+    "title":  "PowerShell Ops Scripts",
+    "tagline":  "Safe, reusable PowerShell tools for Windows operations.",
+    "groups":  [
+                   {
+                       "name":  "Overview",
+                       "items":  [
+                                     {
+                                         "path":  "README.md",
+                                         "title":  "Overview"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Source: scripts",
+                       "items":  [
+                                     {
+                                         "path":  "scripts/Get-DiskReport.ps1",
+                                         "title":  "scripts/Get-DiskReport.ps1"
+                                     },
+                                     {
+                                         "path":  "scripts/Get-ExpiringCertificates.ps1",
+                                         "title":  "scripts/Get-ExpiringCertificates.ps1"
+                                     },
+                                     {
+                                         "path":  "scripts/Get-PatchStatus.ps1",
+                                         "title":  "scripts/Get-PatchStatus.ps1"
+                                     },
+                                     {
+                                         "path":  "scripts/Get-ServiceHealthReport.ps1",
+                                         "title":  "scripts/Get-ServiceHealthReport.ps1"
+                                     },
+                                     {
+                                         "path":  "scripts/Remove-OldLogs.ps1",
+                                         "title":  "scripts/Remove-OldLogs.ps1"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Source: tests",
+                       "items":  [
+                                     {
+                                         "path":  "tests/Remove-OldLogs.Tests.ps1",
+                                         "title":  "tests/Remove-OldLogs.Tests.ps1"
+                                     }
+                                 ]
+                   }
+               ],
+    "pages":  [
+                  {
+                      "path":  "README.md",
+                      "title":  "Overview"
+                  },
+                  {
+                      "path":  "scripts/Get-DiskReport.ps1",
+                      "title":  "scripts/Get-DiskReport.ps1"
+                  },
+                  {
+                      "path":  "scripts/Get-ExpiringCertificates.ps1",
+                      "title":  "scripts/Get-ExpiringCertificates.ps1"
+                  },
+                  {
+                      "path":  "scripts/Get-PatchStatus.ps1",
+                      "title":  "scripts/Get-PatchStatus.ps1"
+                  },
+                  {
+                      "path":  "scripts/Get-ServiceHealthReport.ps1",
+                      "title":  "scripts/Get-ServiceHealthReport.ps1"
+                  },
+                  {
+                      "path":  "scripts/Remove-OldLogs.ps1",
+                      "title":  "scripts/Remove-OldLogs.ps1"
+                  },
+                  {
+                      "path":  "tests/Remove-OldLogs.Tests.ps1",
+                      "title":  "tests/Remove-OldLogs.Tests.ps1"
+                  }
+              ]
+}
